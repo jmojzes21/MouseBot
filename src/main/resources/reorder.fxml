@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane prefHeight="600.0" prefWidth="960.0" style="-fx-font-size: 16;" stylesheets="@Goliath-Envy.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox>
+         <children>
+            <Pane fx:id="canvasPane" VBox.vgrow="ALWAYS">
+               <children>
+                  <Canvas fx:id="canvas" />
+               </children></Pane>
+            <HBox spacing="12.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onFinish" text="%reorder.finish" />
+                  <Pane HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" onAction="#onReset" text="%reorder.reset" />
+                  <Button mnemonicParsing="false" onAction="#onCancel" text="%reorder.cancel" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </VBox.margin>
+            </HBox>
+            <Slider fx:id="slider" blockIncrement="1.0" majorTickUnit="1.0" max="1.0" minorTickCount="0" snapToTicks="true" value="1.0" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets bottom="12.0" left="12.0" right="12.0" />
+               </VBox.margin>
+            </Slider>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
