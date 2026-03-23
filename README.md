@@ -8,7 +8,7 @@ kod nije baš na kvalitetnoj razini.
 
 Posebnost aplikacije je što se nacrtani crtež može pretvoriti u niz pomaka i pritisaka miša te tako precrtati u nekoj drugoj aplikaciji za crtanje (npr. Microsoft Bojanje).
 
-[Primjer rada aplikacije](https://youtu.be/R0ltH5MjjHM)
+Primjer rada aplikacije: https://youtu.be/R0ltH5MjjHM
 
 Značajke aplikacije:
 * crtanje raznih geometrijskih oblika,
